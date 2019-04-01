@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".PracticalTest01Var08PlayActivity">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+
+        android:editable="false"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/show"
+        android:gravity="center_horizontal"
+        android:saveEnabled="false"/>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:gravity="center_horizontal"
+
+        android:editable="true"
+        android:layout_below="@id/show"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/insert"
+        android:saveEnabled="false"/>
+
+
+
+    <Button
+        android:layout_alignParentLeft="true"
+
+        android:layout_below="@id/insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+
+        android:id="@+id/back"/>
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/insert"
+        android:layout_alignRight="@id/show"
+        android:layout_marginTop="0dp"
+        android:text="Check" />
+
+
+
+</RelativeLayout>
